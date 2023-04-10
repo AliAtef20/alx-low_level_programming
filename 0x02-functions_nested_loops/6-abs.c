@@ -2,7 +2,7 @@
 
 /**
  * _abs - function that computes the absolute
- * vlaue of an integer
+ * vlaue of an integer.
  * @n: takes in integer type inpute in function
  * Return: alwys 0
  */
