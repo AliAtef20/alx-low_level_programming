@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * *_memset - fills memory
- * @s: pointr
- * @b: conast
- * @n: max byte
+ * *_memset - fills memory with a constant byte
+ * @s: pointer
+ * @b: conastant
+ * @n: max bytes to use
  * Return: s
  */
 char *_memset(char *s, char b, unsigned int n)
@@ -15,9 +15,9 @@ char *_memset(char *s, char b, unsigned int n)
 	return (ptr);
 }
 /**
- * *_calloc - alloctes memory
+ * *_calloc - alloctes memory for an array, using malloc
  * @nmemb: array length
- * @size: size of each
+ * @size: size of each element
  * Return: pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
