@@ -2,8 +2,8 @@
 /**
  * *_memset - fills memory with a constant byte
  * @s: pointer
- * @b: conastant
- * @n: max bytes to use
+ * @b: constant
+ * @n: max ibytes to use
  * Return: s
  */
 char *_memset(char *s, char b, unsigned int n)
@@ -15,7 +15,7 @@ char *_memset(char *s, char b, unsigned int n)
 	return (ptr);
 }
 /**
- * *_calloc - alloctes memory for an array, using malloc
+ * *_calloc - allocates memory for an array, using malloc
  * @nmemb: array length
  * @size: size of each element
  * Return: pointer
